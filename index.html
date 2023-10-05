@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather app</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <head>
+        <nav>
+            <h1> wheather Dashborad</h1>
+        </nav>
+    </head>
+    <div class="wheather">
+        <h3 class="h3">Search for a city </h3>
+
+         <div class="btn Search-bar">
+            <input id="Search-input" type="text"> <br>
+            <br>
+            <button id="Search-btn" type="button">Search</button>
+        </div>
+        <thead></thead>
+        <div id="Search-history">
+            
+        </div>
+
+    </div>
+    
+    <aside id="side-display">
+        <div class="current-weather">
+            <h3 class="name-city">Melbourne </h3>
+            <p class="today-temp">temp:</p>
+            <p class="today-wind">wind:</p>
+            <p class="today-hum">humidity:</p>
+           
+        </div>
+        <h3>
+            5-day forecast
+        </h3>
+        <div class="forecast day1">
+            <h3 class="forecast-city1">Melbourne </h3>
+            <p class="temp-1">temp:</p>
+            <p class="wind-1" >wind:</p>
+            <p class="hum-1">humidity:</p>
+        </div>
+        <div class="forecast day2">
+            <h3 class="forecast-city2">Melbourne </h3>
+            <p class="temp-2">temp:</p>
+            <p class="wind-2">wind:</p>
+            <p class="hum-2">humidity:</p>
+         </div>
+         <div class="forecast day3">
+            <h3 class="forecast-city3">Melbourne </h3>
+            <p class="temp-3">temp:</p>
+            <p class="wind-3">wind:</p>
+            <p class="hum-3">humidity:</p>
+         </div>
+         <div class="forecast day4">
+            <h3 class="forecast-city4">Melbourne </h3>
+            <p class="temp-4">temp:</p>
+            <p class="wind-4">wind:</p>
+            <p class="hum-4">humidity:</p>
+         </div>
+         <div class="forecast day5">
+            <h3 class="forecast-city5">Melbourne </h3>
+            <p class="temp-5">temp:</p>
+            <p class="wind-5">wind:</p>
+            <p class="hum-5">humidity:</p>
+         </div>
+         
+        
+    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="./assets/script.js" ></script>
+</body>
+</html>

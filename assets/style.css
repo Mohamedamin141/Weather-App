@@ -1,0 +1,85 @@
+body{
+    background:#ddd;
+    background-image:  url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+
+    }
+    
+    nav h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    nav{
+        /* background-color: aqua; */
+        padding: 20px;
+        color: black;
+    }
+
+    .Search-bar input{
+
+       border-radius: 5px;
+       width: 250px;
+       height: 20px;
+    }
+    .btn button{
+        width: 250px;
+        height: 30px;
+        background-color: blue;
+        color: white;
+        /* border-radius: 10px; */
+    }
+    .Search-h3{
+        border: 2px solid black;
+        width: 250px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 2%;
+        display: flex;
+    }
+    .Search-h3:hover{
+        color: white;
+        background-color: green;
+    }
+    .btn button:hover{
+        background-color: black;
+    }
+    .h3{
+        font-size: 2em;
+    }
+    #side-display{
+        display: none;
+        float: right;
+        font-size: 1.5em;
+        
+        width: 65%;
+        height: 0%;
+        margin-top: -100px;
+        margin-right: 5%;
+
+    }
+    .current-weather{
+        
+         border: 2px solid black;
+         background-color: lightblue;
+    }
+    .current-weather h3{
+        font-size: 1.5em;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .current-weather p {
+        margin-left: 4%;
+    }
+    .forecast{
+        margin-top: 1%;
+        border: 2px solid black;
+        width: 250px;
+        height: 300px;
+        display: inline-block;
+        margin-left: 10px;
+        background-color: lightpink;
+        
+        
+    }
+
+    
